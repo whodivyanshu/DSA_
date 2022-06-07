@@ -13,6 +13,7 @@ int main(){
 		int subXor= 0;
 		int surArr= 0;
 		for(int j=i;j<n;j++){
+			//hello
 			subXor^= arr[j];
 			surArr+= arr[j];
 		}
