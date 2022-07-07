@@ -2,10 +2,16 @@
 using namespace std;
 int main(){ 
 
-    int a=4,x;
-    x=a<<2;
-    cout<<x<<endl;
-    cout<<a<<endl;
-
+    int n=15;
+    int mask = 1;
+    int check = 3;
+    mask = mask<<(check-1);
+    
+    if(mask & n){
+        cout<<"SET"<<endl;
+    }
+    else{
+        cout<<"RESET"<<endl;
+    }
     return 0;
 }
