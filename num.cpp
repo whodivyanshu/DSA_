@@ -99,7 +99,7 @@ int main(){
             cout<<"Eighty"<<" ";
             print(mod);
         }
-        else if(n>=90 && n<99){
+        else if(n>=90 && n<=9999){
             cout<<"Ninty"<<" ";
             print(mod);
         }
