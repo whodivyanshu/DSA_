@@ -7,13 +7,15 @@ int main(){
     int n;
     while(n!=-1){
         cin>>n;
-        hightest = max(hightest,n);
+        if(n>hightest){
+            secondHightest = hightest;
+            hightest = n;
+        }
+        else if(n>secondHightest){
+            secondHightest = n;
+        }
 
     }
-    cout<<hightest<<endl;
-
-
-
-
+    cout<<secondHightest<<endl;
     return 0;
 }
