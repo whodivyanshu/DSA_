@@ -1,21 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int n;
     int prev;
-    cin>>n;
+    cin >> n;
     prev = n;
-    while(1){
-        cin>>n;
-        if(n==-1){
+    while (1)
+    {
+        cin >> n;
+        if (n == -1)
+        {
             break;
         }
-        cout<<n+prev<<endl;
+        cout << n + prev << endl;
         prev = n;
-
     }
-
-
 
     return 0;
 }
