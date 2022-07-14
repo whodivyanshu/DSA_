@@ -20,7 +20,7 @@ int main(){
         
     }
     if(count==1){
-        cout<<j<<endl;
+        // cout<<j<<endl;
         sum2+=j;
         sum++;
     }
