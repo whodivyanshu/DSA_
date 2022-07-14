@@ -3,9 +3,13 @@
 using namespace std;
 int main(){
     // int n;
+    int ll,ul;
+    cin>>ll>>ul;
     int count = 1;
+    int sum = 0;
+    int sum2=  0;
     // cin>>n;
-    for(int j=100;j<=200;j++){
+    for(int j=ll;j<=ul;j++){
         count = 1;
 
     for(int i=2;i<=sqrt(j);i++){
@@ -17,12 +21,14 @@ int main(){
     }
     if(count==1){
         cout<<j<<endl;
+        sum2+=j;
+        sum++;
     }
     
     
     }
-
-
+    cout<<sum<<endl;
+    cout<<sum2<<endl;
 
     return 0;
 }
