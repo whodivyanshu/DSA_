@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
+    int n2 = n;
     int oddsum = 0;
     int evensum = 0;
     int sum = 0;
@@ -17,10 +18,22 @@ int main(){
             oddsum+=sum;
         }
         n=n/10;
-        // count++;
+
     }
-    cout<<oddsum<<endl;
-    cout<<evensum<<endl;
+
+    float percent = 0;
+
+    if(oddsum>15){
+        percent = (n2*15)/100.0;
+    }
+    else{
+        percent = (n2*oddsum)/100.0;
+    }
+    cout<<"percent="<<oddsum<<endl;
+    cout<<"discounted amount="<< n2-percent<<endl;
+    cout<<"total amount="<<n2<<endl;
+
+
 
 
     return 0;
