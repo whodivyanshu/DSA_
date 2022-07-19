@@ -1,18 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
     int x;
     int count = 0;
-    while(x!=-1){
-        cin>>x;
-        if(x==n){
+    while (x != -1)
+    {
+        cin >> x;
+        if (x == n)
+        {
             count++;
         }
     }
 
-    cout<<count<<endl;
+    cout << count << endl;
 
     return 0;
 }
