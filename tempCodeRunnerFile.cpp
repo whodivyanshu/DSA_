@@ -1,3 +1,6 @@
-cout<<sumn<<endl;
-    // cout<<sumr<<endl;
-    // cout<<sumx<<endl;
+if(n1==n){
+        cout<<"palindrome"<<endl;
+    }
+    else{
+        cout<<"Not palindrome"<<endl;
+    }

@@ -10,8 +10,5 @@ int main(){
         n1*=n;
     }
     cout<<n1<<endl;
-
-
-
     return 0;
 }
