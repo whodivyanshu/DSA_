@@ -5,11 +5,12 @@ int main(){
     cin>>n;
     int power;
     cin>>power;
-    int power1 = n;
-    for(int i=1;i<=power;i++){
-        n=n*power;
+    int n1 = 1;
+    for(int i=0;i<power;i++){
+        n1*=n;
     }
-    cout<<n<<endl;
+    cout<<n1<<endl;
+
 
 
     return 0;
