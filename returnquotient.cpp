@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 
-void checkque(int a,int b){
+int checkque(int a,int b){
     if(a%b==0){
-        cout<<a/b<<endl;
+        return a/b;
     }
     else{
-        cout<<-1<<endl;
+        return -1;
     }
     
 }
@@ -14,9 +14,7 @@ void checkque(int a,int b){
 int main(){
     int a,b;
     cin>>a>>b;
-    checkque(a,b);
-
-
-
+    cout<<checkque(a,b)<<endl;
+    
     return 0;
 }
