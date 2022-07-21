@@ -7,12 +7,14 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    
-    int sum =0;
+    int key;
+    cin>>key;
     for(int i=0;i<n;i++){
-        sum+=arr[i];
+        if(arr[i]==key){
+            cout<<i+1<<endl;
+            break;
+        }
     }
-    cout<<sum<<endl;
 
 
     return 0;
